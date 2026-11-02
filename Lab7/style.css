@@ -1,4 +1,35 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    background: #ede9fe;
+    padding: 30px;
+}
+
+.profile {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #ccc;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    color: #6d28d9;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+p {
+    line-height: 1.6;
 }

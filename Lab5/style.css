@@ -1,4 +1,32 @@
 body {
+    background: #ecfeff;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    margin: 40px auto;
+    padding: 25px;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #0891b2;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin-top: 15px;
+    border-radius: 10px;
 }

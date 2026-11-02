@@ -1,4 +1,37 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    background: #eff6ff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #1d4ed8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #2563eb;
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.scroll-box {
+    width: 300px;
+    height: 100px;
+    overflow-y: auto;
+    background: white;
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid #2563eb;
 }

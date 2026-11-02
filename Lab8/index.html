@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lab 8</title>
+    <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>HTML CSS Practical - Lab 8</h1>
+    <div class="form-box">
+        <h1>Sign Up</h1>
+
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <label>Gender</label>
+            <select>
+                <option>Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <label>Choose Course</label>
+            <div class="choice">
+                <input type="radio" name="course" value="BCA"> BCA
+                <input type="radio" name="course" value="BSc"> BSc
+                <input type="radio" name="course" value="BCom"> BCom
+            </div>
+
+            <div class="choice">
+                <input type="checkbox" required>
+                I agree to the terms and conditions.
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
 </body>
 </html>
