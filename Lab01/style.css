@@ -1,0 +1,31 @@
+/*  
+Name: Panchdev Maddheshiya
+Roll Number: 2550303017
+Assignment Number: 01
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2563eb;
+}
+
+h2 {
+    color: #333;
+}
+
+li {
+    margin: 10px 0;
+}
